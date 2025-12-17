@@ -1,0 +1,255 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 15px 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: left;
+} 
+
+.navbar {
+    border-bottom: 4px  #ddd;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.gold {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.navbar ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar ul li:hover {
+    color: #b71c1c;
+}
+
+.navbar ul li.active {
+    color: #b71c1c;
+    font-weight: bold;
+}
+
+
+nav a {
+    /* margin-left: 25px; */
+    margin: right;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a67c00;
+    font-weight: bold;
+
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    padding-left: 60px;
+    /* background-color: #fff; */
+    text-shadow: 2px 2px 10px white;
+    padding: 12px 40px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    padding: 12px 40px;
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.hero img{
+    border-radius: 20px;
+    row-gap: 30px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: #a67c00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 40px;
+}
+
+.hero button:hover {
+    background: #8a6400;
+    padding: 12px 40px;
+    border-radius: 20px;
+}
+
+/* Product Section */
+.products {
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.products h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* .product-container{
+    display: grid ;
+    grid-template-columns: repeat (4,1fr);
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+     
+    
+} */
+ .product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    margin-left: 70px;
+    column-gap: 10px;
+    row-gap: 50px;
+    margin-right: 70px;
+    padding: 20px;
+
+ }
+ .rs{
+    padding: auto;
+ }
+.search-box input {
+    width: 100%;
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: 3px solid #b98b6d;     
+    font-size: 30px;
+    background: #fff;
+    outline: none;
+    
+}
+
+.icon-search {
+    position: absolute;
+    left: 12px; 
+    top: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    color: #b98b6d;
+}
+
+.product {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    
+}
+
+.rs:hover {
+    box-shadow: 0 0 30px 10px rgba(8, 0, 0, 0.3);
+    /* width: 405px; */
+    padding: 10px;
+
+}
+.p :hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product button {
+    margin-top: 12px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #a67c00;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background: #8a6400;
+}
+
+
+footer {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 15px;
+    margin-top: 40px;
+}
+.productcontainer1{
+    display: flex;
+}
+
+.down{
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 500px;
+    width: auto;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+.down img{
+    height: 460px;
+    width: 1670px; 
+    border-radius: 20px;
+}
+/* .productrs{
+    width: 300px;
+} */
