@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +5,21 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Header */
 header {
     width: 100%;
     padding: 15px 40px;
     background: #ffffff;
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 12px rgba(0,0,0,0.1);
 }
-
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .logo {
     font-size: 28px;
     font-weight: bold;
@@ -27,6 +31,8 @@ header {
 .navbar {
     border-bottom: 4px  #ddd;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -68,7 +74,7 @@ header {
 
 nav a {
     /* margin-left: 25px; */
-    margin: right;
+    margin: center;
     text-decoration: none;
     color: #444;
     font-weight: bold;
@@ -163,13 +169,14 @@ nav a:hover {
     padding: auto;
  }
 .search-box input {
-    width: 100%;
+    width: 60%;
     padding: 12px 40px;
     border-radius: 20px;
     border: 3px solid #b98b6d;     
     font-size: 30px;
     background: #fff;
     outline: none;
+    justify-content: center;
     
 }
 
@@ -177,9 +184,11 @@ nav a:hover {
     position: absolute;
     left: 12px; 
     top: 20px;
-    bottom: 20px;
+    bottom: 50px;
     font-size: 20px;
     color: #b98b6d;
+    justify-content: center;
+    
 }
 
 .product {
@@ -250,8 +259,10 @@ footer {
     width: 1670px; 
     border-radius: 20px;
 }
-/* .productrs{
-    width: 300px;
+
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 } */
 
 .footer {
