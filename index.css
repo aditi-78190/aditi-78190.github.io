@@ -1,3 +1,4 @@
+/* Reset Settings */
 * {
     margin: 0;
     padding: 0;
@@ -114,6 +115,7 @@ nav a:hover {
 
 .hero img{
     border-radius: 20px;
+    margin-right: 0;
     row-gap: 30px;
 }
 
@@ -176,7 +178,6 @@ nav a:hover {
     font-size: 30px;
     background: #fff;
     outline: none;
-    justify-content: center;
     
 }
 
@@ -187,7 +188,6 @@ nav a:hover {
     bottom: 50px;
     font-size: 20px;
     color: #b98b6d;
-    justify-content: center;
     
 }
 
@@ -241,6 +241,7 @@ footer {
 }
 .productcontainer1{
     display: flex;
+    gap: 10px ;
 }
 
 .down{
@@ -275,41 +276,33 @@ footer {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
     justify-content: space-between;
+    max-width: 1200px;
     /* height: 1000px;
     width: 796px; */
-    /* margin: auto; */
+    margin: auto;
     border-radius: 20px;
 }
-.footer-col.img{
-    justify-content: left;
-}
-.footer-col{
-    justify-content:center ;
-    text-align: center;
-    position: sticky;
-    }
 
+.footer-col{
+    text-align: center;
+    justify-content:space-around ;
+}
 
 .footer-col1 {
-   text-align:center;
-   justify-content: left;
+   text-align: center;
+   justify-content: space-between;
    font: 16px Fraunces, serif;
-
 }
 
 .contact{
     text-align: center;
-    justify-content: center;
+    justify-content: right;
     margin: 0px 0px 15px;
-    /* font: 16px Fraunces, serif; */
+    font: 16px Fraunces, serif;
     height: 20.8px;
-}
-
-.scanlogos{
-    align-items: right;
-
+    ;
+    
 }
 .logo {
     font-size: 0px 0px 28px;
