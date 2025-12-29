@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
 }
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -89,7 +89,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    height: 80vh;
+    height: 160vh;
     display: flex;
     align-items: center;
     row-gap: 28px;
@@ -101,7 +101,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 45px;
+    font-size: 30px;
     padding: 9px 35px;
     border-radius: 20px;
 }
@@ -115,7 +115,7 @@ nav a:hover {
 
 .hero img{
     border-radius: 18px;
-    row-gap: 28px;
+    row-gap: 30px;
 }
 
 .hero button {
@@ -139,31 +139,25 @@ nav a:hover {
 .products {
     text-align: left;
     padding: 45px 18px;
+    row-gap: 30px;
 }
 
 .products h2 {
     font-size: 30px;
     margin-bottom: 18px;
+    row-gap: 30px;
 }
 
-/* .product-container{
-    display: grid ;
-    grid-template-columns: repeat (4,1fr);
-    justify-content: space-between;
-    margin-left: 70px;
-    margin-right: 70px;
-     
-    
-} */
  .product-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    justify-content: space-between;
-    margin-left: 70px;
+    justify-content: left;
+    margin-left: 30px;
     column-gap: 10px;
     row-gap: 50px;
-    margin-right: 70px;
+    margin-right: 30px;
     padding: 20px;
+
 
  }
  .rs{
@@ -174,7 +168,7 @@ nav a:hover {
     padding: 12px 40px;
     border-radius: 20px;
     border: 3px solid #b98b6d;     
-    font-size: 30px;
+    font-size: 20px;
     background: #fff;
     outline: none;
     
@@ -185,35 +179,39 @@ nav a:hover {
     left: 12px; 
     top: 20px;
     bottom: 50px;
-    font-size: 20px;
+    font-size: 15px;
     color: #b98b6d;
     
 }
 
 .product {
-    width: 400px;
+    width: 300px;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.1);
     transition: 0.3s;
+    row-gap: 30px;
+    position: left;
+    justify-content: left;
     
 }
 
 .rs:hover {
     box-shadow: 0 0 30px 10px rgba(8, 0, 0, 0.3);
-    /* width: 405px; */
-    padding: 10px;
-
-}
+    width: 300px;
+    padding: 10px;  
+ }
 .p :hover{
     transform: scale(1.05);
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
+    row-gap: 20px;
 }
 
 .product img {
     width: 100%;
     border-radius: 8px;
+    row-gap: 30px;
 }
 
 .product button {
@@ -255,7 +253,7 @@ footer {
 }
 .down img{
     height: 460px;
-    width: 1670px; 
+    width: 1230px; 
     border-radius: 20px;
 }
 
@@ -350,4 +348,16 @@ footer {
 }
 /* .productrs{
     width: 300px;
+} */
+
+.clone{
+    background-color:rgb(241, 153, 168);
+    height: 40px;
+}
+ 
+/* Responsive page  */
+/* @media (min-width: 600px) {
+    body {
+        display: none;
+    }
 } */
