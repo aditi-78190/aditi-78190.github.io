@@ -226,7 +226,7 @@ nav a:hover {
     background: #a67c00;
     color: white;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .product button:hover {
