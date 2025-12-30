@@ -355,9 +355,9 @@ footer {
     height: 40px;
 }
  
-/* Responsive page  */
-/* @media (min-width: 600px) {
+Responsive page
+@media (min-width: 600px) {
     body {
-        display: none;
+        /* display: none; */
     }
-} */
+}
